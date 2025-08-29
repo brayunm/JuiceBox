@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "JuiceBox",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Analyze your charging distribution with a month by month and an accumulated views.",
   "action": {
     "default_popup": "popup.html"
@@ -23,7 +23,8 @@
     "notifications"
   ],
   "host_permissions": [
-    "*://*.shellrecharge.com/*"
+    "*://*.shellrecharge.com/*",
+    "https://api.github.com/*"
   ],
   "icons": {
     "16": "public/16.png",
